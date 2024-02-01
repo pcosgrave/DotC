@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Other">
+      <UniqueIdentifier>{f1e1fc57-5bc5-4cf0-be2b-75b5d441eccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Source">
+      <UniqueIdentifier>{0177dac2-df3e-4ddb-ac69-dd613e2fe478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Include">
+      <UniqueIdentifier>{182eab41-b399-4606-afae-094b02006b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Scripts">
+      <UniqueIdentifier>{55a667eb-cf42-476d-bdd0-0d8956949431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Scripts\Source">
+      <UniqueIdentifier>{346f2362-919e-4fb7-9e3b-133d654cc99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Scripts\Include">
+      <UniqueIdentifier>{1bd29daf-0cb7-449b-b968-00ccf8e1c745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Scripts">
+      <UniqueIdentifier>{a39966e0-4029-4370-a8e6-fbe9a30f4c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Scripts\Source">
+      <UniqueIdentifier>{50629d61-701c-4004-a0d3-4b3943e7f34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Scripts\Include">
+      <UniqueIdentifier>{09a83abd-fbca-463f-aafe-937e793c985e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Scripts\Portrait">
+      <UniqueIdentifier>{06703c90-d79a-4e2a-b35a-881f3edc2ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{fbc07cfc-08d4-4e58-ac38-733927a92579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Templates">
+      <UniqueIdentifier>{32d1b84a-4fbf-4b53-b18b-ebe7bfb5ad40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Templates\Buildings">
+      <UniqueIdentifier>{9651cfad-b957-48d3-9816-f3f6157c66b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Templates\NPCs">
+      <UniqueIdentifier>{d42211a9-fd3f-4da8-880e-a241e15a2a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Layouts">
+      <UniqueIdentifier>{f5b1c21c-6c3f-4299-afb6-a1690442031d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Scenes">
+      <UniqueIdentifier>{2bb037b0-2016-4755-bf47-4879305da9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Skins">
+      <UniqueIdentifier>{c397d904-603e-4c63-bcae-075b900ac077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Config">
+      <UniqueIdentifier>{281c2381-e161-4610-a7a9-f50f6955e355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{43592748-a048-4c78-ab49-845d6f7d08d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source">
+      <UniqueIdentifier>{4af35711-11a4-4f44-87c3-0ded7a49bee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Include">
+      <UniqueIdentifier>{a23680c0-b075-45a9-b70a-f12fd6b18d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{20fd67f2-1e67-44c7-8b31-c91554fc6d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Widgets">
+      <UniqueIdentifier>{68e32b87-9f3d-4a39-a5ce-ee76536bb457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Widgets\Source">
+      <UniqueIdentifier>{836a27c9-6daa-4918-8c80-16128ff6e4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Widgets\Include">
+      <UniqueIdentifier>{1eca8111-4bbe-4549-bb11-4fdd7089ca4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Other\Source\_All.cpp">
+      <Filter>Other\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Source\Debug.cpp">
+      <Filter>Other\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Source\Game.cpp">
+      <Filter>Other\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Source\Server.cpp">
+      <Filter>Other\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Source\World.cpp">
+      <Filter>Other\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OS3DGame.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSCameraTarget.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSClickToControl.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSClickToFollow.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSCombatAnimations.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSCombatText.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSControlled.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSCopyModel.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSCreateSurface.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSDayNight.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSDefaultCamera.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSDestroy.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSEntity.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSFace.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSHealthBar.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSMelee.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSMove.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSNameTag.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSObjectSize.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSPlaceable.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSPrefab.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSScale.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSSelectable.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSSelected.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSSelection.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSServerConnect.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSStats.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSStopParticleEffects.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSSway.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSTerrainTile.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSTiledTerrain.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OSScripts\Source\OSTorchlight.cpp">
+      <Filter>Object Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USChangeLayout.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USChatInput.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USChatLog.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USConnect.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USDisconnect.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USFrameAware.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USGrowOnHover.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USHealthColor.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USHideFrame.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USJoinGame.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USLoadingScreen.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USRoot.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USServerDetails.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USStartBuilding.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USStatusBar.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USToggleWidget.cpp">
+      <Filter>UI Scripts\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USControlledPortrait.cpp">
+      <Filter>UI Scripts\Portrait</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USPortrait.cpp">
+      <Filter>UI Scripts\Portrait</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USSelectedPortrait.cpp">
+      <Filter>UI Scripts\Portrait</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Source\FireEmitter.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Source\FirepitEmitter.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Source\Projector.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Source\SmokeEmitter.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Source\Sunlight.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWidgets\Source\UIFrameText.cpp">
+      <Filter>UI Widgets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWidgets\Source\UIHealthBar.cpp">
+      <Filter>UI Widgets\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Other\Include\_All.h">
+      <Filter>Other\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Include\Debug.h">
+      <Filter>Other\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Include\Game.h">
+      <Filter>Other\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Include\Server.h">
+      <Filter>Other\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Include\World.h">
+      <Filter>Other\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OS3DGame.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSCameraTarget.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSClickToControl.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSClickToFollow.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSCombatAnimations.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSCombatText.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSControlled.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSCopyModel.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSCreateSurface.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSDayNight.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSDefaultCamera.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSDestroy.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSEntity.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSFace.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSHealthBar.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSMelee.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSMove.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSNameTag.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSObjectSize.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSPlaceable.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSPrefab.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSScale.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSSelectable.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSSelected.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSSelection.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSServerConnect.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSStats.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSStopParticleEffects.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSSway.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSTerrainTile.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSTiledTerrain.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="OSScripts\Include\OSTorchlight.h">
+      <Filter>Object Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USChangeLayout.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USChatInput.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USChatLog.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USConnect.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USDisconnect.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USFrameAware.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USGrowOnHover.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USHealthColor.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USHideFrame.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USJoinGame.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USLoadingScreen.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USPreviewMap.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USRoot.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USServerDescription.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USServerDetails.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USServerInfo.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USStartBuilding.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USStatusBar.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USToggleWidget.h">
+      <Filter>UI Scripts\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USControlledPortrait.h">
+      <Filter>UI Scripts\Portrait</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USPortrait.h">
+      <Filter>UI Scripts\Portrait</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScripts\Include\USSelectedPortrait.h">
+      <Filter>UI Scripts\Portrait</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Include\FireEmitter.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Include\FirepitEmitter.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Include\Projector.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Include\SmokeEmitter.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Include\Sunlight.h">
+      <Filter>Objects\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Entity.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Packets.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Vector3i.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWidgets\Include\UIFrameText.h">
+      <Filter>UI Widgets\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWidgets\Include\UIHealthBar.h">
+      <Filter>UI Widgets\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Resources\Templates\Buildings\Barracks.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Farm.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Forge.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Mill.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Mine.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Shack.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Tents.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Townhall.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\Buildings\Workshop.txt">
+      <Filter>Resources\Templates\Buildings</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\NPCs\Orc.txt">
+      <Filter>Resources\Templates\NPCs</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Templates\NPCs\Peasant.txt">
+      <Filter>Resources\Templates\NPCs</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Layouts\Connect.txt">
+      <Filter>Resources\Layouts</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Layouts\HUD.txt">
+      <Filter>Resources\Layouts</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Layouts\Server Details.txt">
+      <Filter>Resources\Layouts</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Scenes\3DGame.txt">
+      <Filter>Resources\Scenes</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Skins\Neon.txt">
+      <Filter>Resources\Skins</Filter>
+    </Text>
+    <Text Include="..\..\Resources\Config\Startup.txt">
+      <Filter>Resources\Config</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

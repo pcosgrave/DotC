@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11312B99-D2F0-4324-8982-8C0DB5382D12}</ProjectGuid>
+    <RootNamespace>DotC</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31829.152</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\$(Configuration)\Win\obj\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)..\$(Configuration)\Win\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\$(Configuration)\Win\obj\$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)..\$(Configuration)\Win\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>../../Other/Include/_All.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)..\$(Configuration)\Win\bin\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\$(Configuration)\Win\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ExceptionHandling />
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>../../Other/Include/_All.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)..\$(Configuration)\Win\bin\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\$(Configuration)\Win\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Objects\Source\FireEmitter.cpp" />
+    <ClCompile Include="Objects\Source\FirepitEmitter.cpp" />
+    <ClCompile Include="Objects\Source\Projector.cpp" />
+    <ClCompile Include="Objects\Source\SmokeEmitter.cpp" />
+    <ClCompile Include="Objects\Source\Sunlight.cpp" />
+    <ClCompile Include="OSScripts\Source\OS3DGame.cpp" />
+    <ClCompile Include="OSScripts\Source\OSCameraTarget.cpp" />
+    <ClCompile Include="OSScripts\Source\OSClickToControl.cpp" />
+    <ClCompile Include="OSScripts\Source\OSClickToFollow.cpp" />
+    <ClCompile Include="OSScripts\Source\OSCombatAnimations.cpp" />
+    <ClCompile Include="OSScripts\Source\OSCombatText.cpp" />
+    <ClCompile Include="OSScripts\Source\OSControlled.cpp" />
+    <ClCompile Include="OSScripts\Source\OSCopyModel.cpp" />
+    <ClCompile Include="OSScripts\Source\OSCreateSurface.cpp" />
+    <ClCompile Include="OSScripts\Source\OSDayNight.cpp" />
+    <ClCompile Include="OSScripts\Source\OSDefaultCamera.cpp" />
+    <ClCompile Include="OSScripts\Source\OSDestroy.cpp" />
+    <ClCompile Include="OSScripts\Source\OSEntity.cpp" />
+    <ClCompile Include="OSScripts\Source\OSFace.cpp" />
+    <ClCompile Include="OSScripts\Source\OSHealthBar.cpp" />
+    <ClCompile Include="OSScripts\Source\OSMelee.cpp" />
+    <ClCompile Include="OSScripts\Source\OSMove.cpp" />
+    <ClCompile Include="OSScripts\Source\OSNameTag.cpp" />
+    <ClCompile Include="OSScripts\Source\OSObjectSize.cpp" />
+    <ClCompile Include="OSScripts\Source\OSPlaceable.cpp" />
+    <ClCompile Include="OSScripts\Source\OSPrefab.cpp" />
+    <ClCompile Include="OSScripts\Source\OSScale.cpp" />
+    <ClCompile Include="OSScripts\Source\OSSelectable.cpp" />
+    <ClCompile Include="OSScripts\Source\OSSelected.cpp" />
+    <ClCompile Include="OSScripts\Source\OSSelection.cpp" />
+    <ClCompile Include="OSScripts\Source\OSServerConnect.cpp" />
+    <ClCompile Include="OSScripts\Source\OSStats.cpp" />
+    <ClCompile Include="OSScripts\Source\OSStopParticleEffects.cpp" />
+    <ClCompile Include="OSScripts\Source\OSSway.cpp" />
+    <ClCompile Include="OSScripts\Source\OSTerrainTile.cpp" />
+    <ClCompile Include="OSScripts\Source\OSTiledTerrain.cpp" />
+    <ClCompile Include="OSScripts\Source\OSTorchlight.cpp" />
+    <ClCompile Include="Other\Source\Debug.cpp" />
+    <ClCompile Include="Other\Source\Game.cpp" />
+    <ClCompile Include="Other\Source\Server.cpp" />
+    <ClCompile Include="Other\Source\World.cpp" />
+    <ClCompile Include="Other\Source\_All.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UIScripts\Source\USChangeLayout.cpp" />
+    <ClCompile Include="UIScripts\Source\USChatInput.cpp" />
+    <ClCompile Include="UIScripts\Source\USChatLog.cpp" />
+    <ClCompile Include="UIScripts\Source\USConnect.cpp" />
+    <ClCompile Include="UIScripts\Source\USControlledPortrait.cpp" />
+    <ClCompile Include="UIScripts\Source\USDisconnect.cpp" />
+    <ClCompile Include="UIScripts\Source\USFrameAware.cpp" />
+    <ClCompile Include="UIScripts\Source\USGrowOnHover.cpp" />
+    <ClCompile Include="UIScripts\Source\USHealthColor.cpp" />
+    <ClCompile Include="UIScripts\Source\USHideFrame.cpp" />
+    <ClCompile Include="UIScripts\Source\USJoinGame.cpp" />
+    <ClCompile Include="UIScripts\Source\USLoadingScreen.cpp" />
+    <ClCompile Include="UIScripts\Source\USPortrait.cpp" />
+    <ClCompile Include="UIScripts\Source\USRoot.cpp" />
+    <ClCompile Include="UIScripts\Source\USSelectedPortrait.cpp" />
+    <ClCompile Include="UIScripts\Source\USServerDetails.cpp" />
+    <ClCompile Include="UIScripts\Source\USStartBuilding.cpp" />
+    <ClCompile Include="UIScripts\Source\USStatusBar.cpp" />
+    <ClCompile Include="UIScripts\Source\USToggleWidget.cpp" />
+    <ClCompile Include="UIWidgets\Source\UIFrameText.cpp" />
+    <ClCompile Include="UIWidgets\Source\UIHealthBar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Entity.h" />
+    <ClInclude Include="..\Common\Packets.h" />
+    <ClInclude Include="..\Common\Vector3i.h" />
+    <ClInclude Include="Objects\Include\FireEmitter.h" />
+    <ClInclude Include="Objects\Include\FirepitEmitter.h" />
+    <ClInclude Include="Objects\Include\Projector.h" />
+    <ClInclude Include="Objects\Include\SmokeEmitter.h" />
+    <ClInclude Include="Objects\Include\Sunlight.h" />
+    <ClInclude Include="OSScripts\Include\OS3DGame.h" />
+    <ClInclude Include="OSScripts\Include\OSCameraTarget.h" />
+    <ClInclude Include="OSScripts\Include\OSClickToControl.h" />
+    <ClInclude Include="OSScripts\Include\OSClickToFollow.h" />
+    <ClInclude Include="OSScripts\Include\OSCombatAnimations.h" />
+    <ClInclude Include="OSScripts\Include\OSCombatText.h" />
+    <ClInclude Include="OSScripts\Include\OSControlled.h" />
+    <ClInclude Include="OSScripts\Include\OSCopyModel.h" />
+    <ClInclude Include="OSScripts\Include\OSCreateSurface.h" />
+    <ClInclude Include="OSScripts\Include\OSDayNight.h" />
+    <ClInclude Include="OSScripts\Include\OSDefaultCamera.h" />
+    <ClInclude Include="OSScripts\Include\OSDestroy.h" />
+    <ClInclude Include="OSScripts\Include\OSEntity.h" />
+    <ClInclude Include="OSScripts\Include\OSFace.h" />
+    <ClInclude Include="OSScripts\Include\OSHealthBar.h" />
+    <ClInclude Include="OSScripts\Include\OSMelee.h" />
+    <ClInclude Include="OSScripts\Include\OSMove.h" />
+    <ClInclude Include="OSScripts\Include\OSNameTag.h" />
+    <ClInclude Include="OSScripts\Include\OSObjectSize.h" />
+    <ClInclude Include="OSScripts\Include\OSPlaceable.h" />
+    <ClInclude Include="OSScripts\Include\OSPrefab.h" />
+    <ClInclude Include="OSScripts\Include\OSScale.h" />
+    <ClInclude Include="OSScripts\Include\OSSelectable.h" />
+    <ClInclude Include="OSScripts\Include\OSSelected.h" />
+    <ClInclude Include="OSScripts\Include\OSSelection.h" />
+    <ClInclude Include="OSScripts\Include\OSServerConnect.h" />
+    <ClInclude Include="OSScripts\Include\OSStats.h" />
+    <ClInclude Include="OSScripts\Include\OSStopParticleEffects.h" />
+    <ClInclude Include="OSScripts\Include\OSSway.h" />
+    <ClInclude Include="OSScripts\Include\OSTerrainTile.h" />
+    <ClInclude Include="OSScripts\Include\OSTiledTerrain.h" />
+    <ClInclude Include="OSScripts\Include\OSTorchlight.h" />
+    <ClInclude Include="Other\Include\Debug.h" />
+    <ClInclude Include="Other\Include\Game.h" />
+    <ClInclude Include="Other\Include\Server.h" />
+    <ClInclude Include="Other\Include\World.h" />
+    <ClInclude Include="Other\Include\_All.h" />
+    <ClInclude Include="UIScripts\Include\USChangeLayout.h" />
+    <ClInclude Include="UIScripts\Include\USChatInput.h" />
+    <ClInclude Include="UIScripts\Include\USChatLog.h" />
+    <ClInclude Include="UIScripts\Include\USConnect.h" />
+    <ClInclude Include="UIScripts\Include\USControlledPortrait.h" />
+    <ClInclude Include="UIScripts\Include\USDisconnect.h" />
+    <ClInclude Include="UIScripts\Include\USFrameAware.h" />
+    <ClInclude Include="UIScripts\Include\USGrowOnHover.h" />
+    <ClInclude Include="UIScripts\Include\USHealthColor.h" />
+    <ClInclude Include="UIScripts\Include\USHideFrame.h" />
+    <ClInclude Include="UIScripts\Include\USJoinGame.h" />
+    <ClInclude Include="UIScripts\Include\USLoadingScreen.h" />
+    <ClInclude Include="UIScripts\Include\USPortrait.h" />
+    <ClInclude Include="UIScripts\Include\USPreviewMap.h" />
+    <ClInclude Include="UIScripts\Include\USRoot.h" />
+    <ClInclude Include="UIScripts\Include\USSelectedPortrait.h" />
+    <ClInclude Include="UIScripts\Include\USServerDescription.h" />
+    <ClInclude Include="UIScripts\Include\USServerDetails.h" />
+    <ClInclude Include="UIScripts\Include\USServerInfo.h" />
+    <ClInclude Include="UIScripts\Include\USStartBuilding.h" />
+    <ClInclude Include="UIScripts\Include\USStatusBar.h" />
+    <ClInclude Include="UIScripts\Include\USToggleWidget.h" />
+    <ClInclude Include="UIWidgets\Include\UIFrameText.h" />
+    <ClInclude Include="UIWidgets\Include\UIHealthBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Resources\Config\Startup.txt" />
+    <Text Include="..\..\Resources\Layouts\Connect.txt" />
+    <Text Include="..\..\Resources\Layouts\HUD.txt" />
+    <Text Include="..\..\Resources\Layouts\Server Details.txt" />
+    <Text Include="..\..\Resources\Scenes\3DGame.txt" />
+    <Text Include="..\..\Resources\Skins\Neon.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Barracks.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Farm.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Forge.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Mill.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Mine.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Shack.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Tents.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Townhall.txt" />
+    <Text Include="..\..\Resources\Templates\Buildings\Workshop.txt" />
+    <Text Include="..\..\Resources\Templates\NPCs\Orc.txt" />
+    <Text Include="..\..\Resources\Templates\NPCs\Peasant.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Basic\Basic.vcxproj">
+      <Project>{5d0db908-fa76-47c7-aaae-515cb1862d53}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Core\Core.vcxproj">
+      <Project>{6ad0f8c7-eeaa-4095-94b3-0d34277e66e9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Font\Font.vcxproj">
+      <Project>{c7615344-fc25-49e8-8ae0-b0b7fdd496d5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Image\Image.vcxproj">
+      <Project>{42e8de77-cd47-4b7b-a46b-9a2805020176}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Math\Math.vcxproj">
+      <Project>{6d552b1f-4231-49f3-b349-27a69053e1a1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Network\Network.vcxproj">
+      <Project>{12b24cde-1544-4fe1-923e-3bc708ea4a83}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Noise\Noise.vcxproj">
+      <Project>{12b24cde-1544-4fe1-913e-3bc708ef4a83}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\OpenGL\OpenGL.vcxproj">
+      <Project>{d36ca0fc-2314-4369-9f78-5f89b5e90f97}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Serialization\Serialization.vcxproj">
+      <Project>{5d0db908-fb76-47c7-aaae-515ab1867d53}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Sound\Sound.vcxproj">
+      <Project>{c8615344-fc25-49e8-8ae0-b0b7fdd496d5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\SysWindow\SysWindow.vcxproj">
+      <Project>{d9fcaac7-e2df-4a8c-8cce-960e0a3dbdce}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\UI\UI.vcxproj">
+      <Project>{4e4a0589-d030-4b38-8e56-7013e99bbec9}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
